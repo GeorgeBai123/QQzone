@@ -227,3 +227,24 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001663s ]
 NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\QQzone\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\QQzone\index.php 第 25 行.
 
+[ 2016-10-25T10:35:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.194603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.194725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.023961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019021s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\QQzone\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\QQzone\index.php 第 25 行.
+
