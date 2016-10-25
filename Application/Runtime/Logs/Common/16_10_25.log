@@ -1,0 +1,66 @@
+[ 2016-10-25T09:07:51+08:00 ] ::1 /think/__uploadImg/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:__uploadImg
+
+[ 2016-10-25T09:08:10+08:00 ] ::1 /think/__uploadImg/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+ERR: 无法加载模块:__uploadImg
+
+[ 2016-10-25T09:08:12+08:00 ] ::1 /think/__uploadImg/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+ERR: 无法加载模块:__uploadImg
+
+[ 2016-10-25T09:08:14+08:00 ] ::1 /think/__uploadImg/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001105s ]
+ERR: 无法加载模块:__uploadImg
+
+[ 2016-10-25T09:08:15+08:00 ] ::1 /think/__uploadImg/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+ERR: 无法加载模块:__uploadImg
+
+[ 2016-10-25T09:08:16+08:00 ] ::1 /think/__uploadImg/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002672s ]
+ERR: 无法加载模块:__uploadImg
+
+[ 2016-10-25T09:08:17+08:00 ] ::1 /think/__uploadImg/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+ERR: 无法加载模块:__uploadImg
+
+[ 2016-10-25T09:08:18+08:00 ] ::1 /think/__uploadImg/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+ERR: 无法加载模块:__uploadImg
+
+[ 2016-10-25T09:08:38+08:00 ] ::1 /think/__uploadImg/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+ERR: 无法加载模块:__uploadImg
+
+[ 2016-10-25T09:20:55+08:00 ] 127.0.0.1 /__uploadImg/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+ERR: 无法加载模块:__uploadImg
+
+[ 2016-10-25T09:20:55+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+ERR: 无法加载模块:Favicon
+
