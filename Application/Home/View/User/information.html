@@ -1,0 +1,152 @@
+<extend name="Index/index" />
+
+<block name='main'>
+	<link rel="stylesheet" href="__PUBLIC__/home/css/user.inf.css">
+	<div class="container" id="center-content">
+		<div class="inf_left col-md-2">
+			<div class="top">
+				<img src="__PUBLIC__/home/back.jpg" alt="">
+			</div>
+		</div>
+		<div class="inf_right col-md-10">
+			<ul class="nav nav-tabs" role="tablist" id="myTab">
+				<li class="active"><a href="#home" role="tab" data-toggle="tab">空间动态</a></li>
+				<li><a href="#inter" role="tab" data-toggle="tab">兴趣爱好</a></li>
+				<li><a href="#inf" role="tab" data-toggle="tab" >个人资料</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane active" id="home">
+					<p>我是空间动态</p>
+				</div>
+				<volist name='list' id='v'>
+					<div class="tab-pane" id="inter">
+						<table class="table">
+							<tr>
+								<th class="col-md-3">喜欢:</th>
+								<td class="col-md-3"><img src="" alt=""></td>
+								<td class="col-md-3"><img src="" alt=""></td>
+								<td class="col-md-3"><img src="" alt=""></td>
+							</tr>
+							<tr>
+								<td class="col-md-2">明星:</td>
+								<td class="col-md-10"><{$v[0].star}></td>
+							</tr>
+							<tr>
+								<td class="col-md-2">音乐:</td>
+								<td class="col-md-10"><{$v[0].music}></td>
+							</tr>
+							<tr>
+								<td class="col-md-2">影视:</td>
+								<td class="col-md-10"><{$v[0].movie}></td>
+							</tr>
+							<tr>
+								<td class="col-md-2">运动:</td>
+								<td class="col-md-10"><{$v[0].sport}></td>
+							</tr>
+							<tr>
+								<td class="col-md-2"> 游戏:</td>
+								<td class="col-md-10"> <{$v[0].game}> </td>
+							</tr>
+							<tr>
+								<td class="col-md-2">美食:</td>
+								<td class="col-md-10"><{$v[0].food}></td>
+							</tr>
+							<tr>
+								<td class="col-md-2">旅游:</td>
+								<td class="col-md-10"><{$v[0].travel}></td>
+							</tr>									
+							<tr>
+								<td class="col-md-2">书籍:</td>
+								<td class="col-md-10"><{$v[0].book}></td>
+							</tr>
+							<tr>
+								<td class="col-md-2">其它:</td>
+								<td class="col-md-10"><{$v[0].other}></td>
+							</tr>								
+						</table>	
+					</div>
+					<div class="tab-pane " id="inf">
+						<table class="table">
+							<tr>
+								<th class="col-md-12">基本资料</th>
+							</tr>
+							<tr>
+								<td class="col-md-2">性别:</td>
+								<td class="col-md-10">
+									<if condition="$_SESSION['user']['sex'] eq 1">男
+									<elseif condition="$_SESSION['user']['sex'] eq 0"/>女
+									<else/>保密
+									</if>
+								</td>
+							</tr>
+							<tr>
+								<td class="col-md-2">年龄:</td>
+								<td class="col-md-10"><{$_SESSION['user']['age']}></td>
+							</tr>
+							<tr>
+								<td class="col-md-2">生日:</td>
+								<td class="col-md-10"><{$v[1].birthday}></td>
+							</tr>
+							<tr>
+								<td class="col-md-2">星座:</td>
+								<td class="col-md-10"><{$_SESSION['user']['constelation']}></td>
+							</tr>
+							<tr>
+								<td class="col-md-2">现居地:</td>
+								<td class="col-md-10"><{$v[1].address}></td>
+							</tr>
+							<tr>
+								<td class="col-md-2">婚姻状况:</td>
+								<td class="col-md-10">
+									<if condition="$v[1].marriage eq 1">已婚
+									<elseif condition="$v[1].marriage eq 0"/>未婚
+									<else/>保密
+									</if>
+								</td>
+							</tr>
+							<tr>
+								<td class="col-md-2">血型:</td>
+								<td class="col-md-10">
+									<if condition="$v[1].blood eq 0">A
+									<elseif condition="$v[1].blood eq 1"/>B
+									<elseif condition="$v[1].blood eq 2"/>AB
+									<elseif condition="$v[1].blood eq 3"/>O
+									<else/>保密
+									</if>
+								</td>
+							</tr>
+							<tr>
+								<td class="col-md-2">故乡:</td>
+								<td class="col-md-10"><{$v[1].hometown}></td>
+							</tr>									
+							<tr>
+								<td class="col-md-2">职业:</td>
+								<td class="col-md-10"><{$v[1].job}></td>
+							</tr>
+							<tr>
+								<td class="col-md-2">公司名称:</td>
+								<td class="col-md-10"><{$v[1].company}></td>
+							</tr>							
+							<tr>
+								<td class="col-md-2">公司所在地:</td>
+								<td class="col-md-10"><{$v[1].company_addr}></td>
+							</tr>
+							<tr>
+								<td class="col-md-2">详细地址:</td>
+								<td class="col-md-10"></td>
+							</tr>					
+						</table>
+					</div>
+				</volist>	
+			</div>
+		</div>
+	</div>
+	<script>
+	    $(function () {
+	        $('#myTab a[href="#profile"]').tab('show');
+	    });
+	    $('#myTab a[href="#profile"]').click(function () {
+	        $('#myTab a[href="#profile"]').tab('show');
+	    }); 
+	</script>
+</block>

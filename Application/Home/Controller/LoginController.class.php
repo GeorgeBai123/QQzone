@@ -33,7 +33,7 @@ class LoginController extends Controller {
             // if(I('post.ver')!=session(I('post.phone'))){
             //     $this->error('验证码输入错误!');
             // }
-            $User = D("User"); // 实例化User对象  
+            $User = D("user_main"); // 实例化User对象  
             if (!$User->create()){  
                  // 如果创建失败 表示验证没有通过 输出错误提示信息  
                  $this->error($User->getError());  
@@ -53,6 +53,38 @@ class LoginController extends Controller {
                
           
         }
+    }
+
+    public function  dologin(){
+         $user = M('user_main');
+        //判断用户是否登陆成功
+
+        if($_POST) {
+        
+            $bin = $_POST;
+            unset($bin['password']);
+            $bin['status'] = 1;
+            $bin['pasword'] = md5($_POST['password']);
+            // 判断这是QQ号码,手机号还是邮箱
+
+
+
+            
+            $data = $user -> where($bin) -> find();
+            echo $user->getLastSql();
+
+        if($data) {
+            
+             $_SESSION['user'] = $data;
+             $_SESSION['islogin'] = 1;
+
+             $this->redirect('Index/index');
+
+             } else {
+                die;
+             $this->error('用户名或密码不正确!'); 
+         }
+       }
     }
     public function sjajax(){
         import('Org.Alidayu.top.TopClient');

@@ -70,3 +70,69 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
 ERR: 无法加载模块:__uploadImg
 
+[ 2016-10-25T11:18:30+08:00 ] 127.0.0.1 /?m=user&c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+ERR: 无法加载模块:User
+
+[ 2016-10-25T11:18:51+08:00 ] 127.0.0.1 /?m=user&c=common
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+ERR: 无法加载模块:User
+
+[ 2016-10-25T11:19:57+08:00 ] 127.0.0.1 /index.php/User/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+ERR: 无法加载模块:User
+
+[ 2016-10-25T11:28:47+08:00 ] 127.0.0.1 /__uploadImg/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000211s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001618s ]
+ERR: 无法加载模块:__uploadImg
+
+[ 2016-10-25T11:28:55+08:00 ] 127.0.0.1 /__uploadImg/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+ERR: 无法加载模块:__uploadImg
+
+[ 2016-10-25T11:29:51+08:00 ] 127.0.0.1 /__uploadImg/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001762s ]
+ERR: 无法加载模块:__uploadImg
+
+[ 2016-10-25T11:30:17+08:00 ] 127.0.0.1 /__uploadImg/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: 无法加载模块:__uploadImg
+
+[ 2016-10-25T11:30:52+08:00 ] 127.0.0.1 /__uploadImg/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+ERR: 无法加载模块:__uploadImg
+
+[ 2016-10-25T11:30:59+08:00 ] 127.0.0.1 /__uploadImg/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000229s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003147s ]
+ERR: 无法加载模块:__uploadImg
+
+[ 2016-10-25T11:31:10+08:00 ] 127.0.0.1 /__uploadImg/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+ERR: 无法加载模块:__uploadImg
+
+[ 2016-10-25T11:37:32+08:00 ] 127.0.0.1 /__uploadImg/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+ERR: 无法加载模块:__uploadImg
+

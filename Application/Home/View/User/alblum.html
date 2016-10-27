@@ -1,0 +1,42 @@
+<extend name='index/index'/>
+<block name='main'>
+	<link rel="stylesheet" href="__PUBLIC__/home/css/user.alblum.css">
+	<div class="container" id="user-alblum">
+		<ul class="nav nav-tabs" role="tablist" id="myTab">
+			<li class="active"><a href="#home" role="tab" data-toggle="tab">相册</a></li>
+			<li><a href="#profile" role="tab" data-toggle="tab">照片</a></li>
+			<li><a href="#messages" role="tab" data-toggle="tab">面孔墙</a></li>
+			<li><a href="#settings" role="tab" data-toggle="tab">视频</a></li>
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane active " id="home">
+				<div class="btn-group ">
+					<button class='btn btn-danger'>上传相册</button>
+					<button class='btn btn-primary'>上传视频</button>
+					<button class='btn btn-warming'>创建相册</button>
+					<button class='btn btn-primary'>展示设置</button>
+				</div>
+				<div class="bottom">
+
+				</div>
+			</div>
+			<div class="tab-pane" id="profile">
+				<div class="btn-group ">
+					<button class='btn btn-danger'>我的照片</button>
+					<button class='btn btn-primary'>好友照片</button>
+				</div>
+			</div>
+			<div class="tab-pane" id="messages">
+				
+			</div>
+			<div class="tab-pane" id="settings">
+				
+			</div>
+		</div>
+	</div>
+	<script>
+	    $(function () {
+	        $('#myTab a[href="#profile"]').tab('show');
+	    });
+	</script>
+</block>

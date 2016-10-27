@@ -1,0 +1,40 @@
+/*信息表样式*/
+.table tr{
+	height:50px;
+}
+.table tr td{
+	font-size: 20px;
+	text-align: left;
+	line-height: 50px;
+}
+.table tr td:first-child{
+	font-size: 20px;
+	text-align: left;
+	line-height: 50px;
+	/*width: 100px;*/
+}
+.table tr:first-child{
+	height: 90px;
+}
+.table tr th{
+	font-size: 25px;
+	text-align: left;
+	text-valign:middle;
+	line-height: 90px;
+}
+/*中间内容布局*/
+.inf_left .top img{
+	width: 100px;
+	height: 100px;
+}
+.inf_left .top{
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+}
+#center-content .inf_left,.inf_right{
+	overflow: hidden;
+}
+#center-content{
+	background-color: white;
+}

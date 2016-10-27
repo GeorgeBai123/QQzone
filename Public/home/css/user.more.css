@@ -1,0 +1,9 @@
+#more-table tr td,th{
+	height: 100px;
+}
+#more-table tr td:hover,th:hover{
+	background-color: gray;
+}
+#more-table table{
+	background-color: white;
+}

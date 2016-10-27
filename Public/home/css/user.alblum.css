@@ -1,0 +1,9 @@
+#user-alblum{
+	background-color: white;
+}
+#user-alblum .btn{
+	margin: 10px 5px;
+}
+#home,#profile,#messages,#settings{
+	height: 500px;
+}
